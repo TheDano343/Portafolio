@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+ <body class="bg-black"> <!-- bg-black: Aplica un color de fondo negro a toda la página web. -->
+
+     <section class="container mx-auto px-4 md:px-8 py-10"> <!-- container: Establece un ancho máximo adaptativo basado en la pantalla del usuario. mx-auto: Centra la sección horizontalmente en la pantalla. px-4: Añade un espaciado interno (padding) izquierdo y derecho de 1rem (16px) en móviles. md:px-8: Incrementa el padding horizontal a 2rem (32px) en pantallas medianas o mayores. py-10: Añade un espaciado interno vertical (arriba y abajo) de 2.5rem (40px). -->
+         <div class="max-w-4xl mx-auto text-center"> <!-- max-w-4xl: Define el ancho máximo del bloque a 56rem (896px). mx-auto: Centra el bloque de texto horizontalmente. text-center: Alinea todos los textos e imágenes internos al centro. -->
+
+            <h2 class="text-white text-2xl md:text-3xl font-bold font-mono pb-4"> <!-- text-white: Cambia el color del texto a blanco. text-2xl: Tamaño de fuente a 1.5rem (24px) para móviles. font-bold: Aplica un grosor de letra negrita. font-mono: Usa una familia de fuente monoespaciada (estilo código). pb-4: Añade margen interno inferior (padding-bottom) de 1rem (16px). -->
+                Tablas relacionadas en Laravel</h2>
+             <p class="text-white text-sm md:text-base  font-serif py-4"> <!-- text-white: Texto de color blanco. text-sm: Tamaño de fuente pequeño de 0.875rem (14px) en móviles. font-serif: Cambia la familia de fuente a tipo Serif (con remates). py-4: Añade espaciado interno superior e inferior de 1rem (16px).  -->
+                Crud con tablas relacionadas en Html5,Laravel y Mysql. Este crud cuenta con la
+                posibilidad con la cual trabajar con dos tablas de una base de datos, y la tabla principal puede
+                seleccionar un dato de tipo foráneo el cual sirva para la tabla principal.
+            </p>
+
+             <div class="flex flex-col gap-6 py-6 justify-center items-center"> <!-- flex: Activa el modelo de diseño Flexbox. flex-col: Organiza los elementos hijos en una columna vertical. gap-6: Separa las imágenes verticalmente con un espacio de 1.5rem (24px). py-6: Añade padding superior e inferior de 1.5rem (24px). justify-center: Centra el contenido en el eje principal. items-center: Centra los elementos horizontalmente en el eje secundario. -->
+
+                <div class="w-full max-w-5xl"> <!-- w-full: Fuerza al contenedor a ocupar el 100% del ancho disponible. max-w-5xl: Limita el ancho máximo del contenedor a 64rem (1024px). -->
+                    <img class="rounded-md w-full h-auto object-cover"
+                        src="../imagenes/crudtablasrelacionadasLaravel/Captura de pantalla 2025-10-08 135516.png"> <!-- rounded-md: Añade bordes ligeramente redondeados a la imagen. w-full: La imagen ocupa todo el ancho de su contenedor. h-auto: Mantiene la proporción original de altura automáticamente. object-cover: Ajusta la imagen para llenar el espacio sin deformarse. -->
+                </div>
+
+                <div class="w-full max-w-5xl">
+                    <img class="rounded-md w-full h-auto object-cover"
+                        src="../imagenes/crudtablasrelacionadasLaravel/Captura de pantalla 2025-10-08 135531.png">
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section class="px-6 py-12 max-w-6xl md:py-30 mx-auto"> <!-- px-6: Padding izquierdo y derecho de 1.5rem (24px). py-12: Padding superior e inferior de 3rem (48px). max-w-6xl: Ancho máximo restringido a 72rem (1152px). md:py-30: Incrementa drásticamente el padding vertical en pantallas medianas.  mx-auto: Centra la sección entera horizontalmente.  -->
+
+        <div class="text-center mb-10"> <!-- text-center: Centra el título de tecnologías. mb-10: Agrega un margen exterior inferior de 2.5rem (40px) para separarlo de la cuadrícula. -->
+            <h2 class="text-3xl font-mono font-bold text-white">Tecnologias Utilizadas</h2> <!--  -->
+        </div>
+
+        <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-8 text-center items-center"> <!-- grid: Activa el sistema de diseño en cuadrícula (CSS Grid). grid-cols-2: Crea 2 columnas idénticas en pantallas móviles. sm:grid-cols-3: Cambia a 3 columnas en pantallas pequeñas/tablets (sm). lg:grid-cols-4: Cambia a 4 columnas en pantallas grandes (lg). gap-8: Separa las celdas de la cuadrícula por un espacio de 2rem (32px). text-center: Centra los textos internos. items-center: Alinea verticalmente los elementos al centro de cada celda.  -->
+
+            <div class="flex flex-col items-center"> <!-- flex y flex-col: Alinea la imagen del logo y su futuro texto verticalmente. items-center: Asegura que el logo esté perfectamente centrado dentro de su celda. -->
+                <img class="h-16 w-auto mb-2" src="../frameworks/HTML5.png"> <!-- h-16: Fija la altura del logo a exactamente 4rem (64px). w-auto: Modifica el ancho automáticamente para no distorsionar el logo. mb-2: Deja un margen inferior de 0.5rem (8px) respecto a cualquier elemento de abajo. -->
+                <h3 class="text-xl font-bold text-white">HTML</h3> <!-- text-3xl: Cambia el tamaño de la letra a 1.875rem (30px) y ajusta automáticamente la altura de línea. font-mono: Aplica una familia de fuente monoespaciada (como Courier New, Consolas o Monaco). font-bold: Define el grosor del texto en negrita (equivalente a un font-weight: 700). text-white: Cambia el color del texto a blanco puro (#ffffff). -->
+            </div>
+
+            <div class="flex flex-col items-center">
+                <img class="h-16 w-auto mb-2" src="../frameworks/php.png">
+                <h3 class="text-xl font-bold text-white">PHP</h3>
+            </div>
+
+            <div class="flex flex-col items-center">
+                <img class="h-16 w-auto mb-2" src="../frameworks/Bootstrap.png">
+                <h3 class="text-xl font-bold text-white">Bootstrap</h3>
+            </div>
+
+            <div class="flex flex-col items-center">
+                <img class="h-16 w-auto mb-2" src="../frameworks/Laravel.png">
+                <h3 class="text-xl font-bold text-white">Laravel</h3>
+            </div>
+
+        </div>
+
+    </section>
+
+
+</body>
+
+</html>
